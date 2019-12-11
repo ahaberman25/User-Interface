@@ -90,10 +90,6 @@ header .logo {
 	top: 10px;
 }
 
-.hero {
-	width: 100%;
-}
-
 .hero .hero-left, .hero .hero-right {
 	display: inline-block;
 	width: 49%;
@@ -114,6 +110,7 @@ header .logo {
 .hero .hero-left span a {
 	text-decoration: none;
 	font-size: 1em;
+	font-weight: normal;
 	color: black;
 	border: 1px solid black;
 	padding: 2%;
@@ -121,14 +118,22 @@ header .logo {
 
 /* END HEADER */
 
-.features {
+.features, .services {
 	width: 100%;
 }
 
 .features .left, .features .right {
 	display: inline-block;
-	width: 49%;
+	width: 49.8%;
 	padding: 2% 0% 2% 0%;
+}
+
+.features .left {
+	padding-right: 1%;
+}
+
+.features .right {
+	padding-left: 1%;
 }
 
 .middle-img {
@@ -136,19 +141,25 @@ header .logo {
 	padding: 3% 0% 3% 0%;
 }
 
-.services {
-	width: 100%;
-}
-
-.services .left, .services .middle, .services .right {
+.services .left, .services .right {
 	display: inline-block;
 	width: 33%;
 	padding: 2% 0% 2% 0%;
 }
 
+.services .middle {
+	display: inline-block;
+	width: 33%;
+	padding: 2% 1% 2% 1%;
+}
+
 footer {
 	width: 100%;
 	padding: 2% 0% 2% 0%;
+}
+
+.contact-block {
+	padding-bottom: 2%;
 }
 
 footer a, footer .copyright {
